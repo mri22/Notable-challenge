@@ -1,7 +1,6 @@
 class Appointment:
 
 	def __init__(self, appointment_id, patient_first_name, patient_last_name, date, time, kind):
-		# type: (int, str, str)
 
 		self.appointment_id = appointment_id
 		self.patient_first_name = patient_first_name
